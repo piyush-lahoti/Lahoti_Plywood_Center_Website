@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "BWP Plywood 18mm",
+    "sku": "BWP-18",
+    "category": "Plywood",
+    "price": 1200,
+    "uom": "sheet",
+    "description": "Moisture resistant BWP plywood, 1220x2440mm."
+  },
+  {
+    "id": 2,
+    "name": "Commercial Plywood 12mm",
+    "sku": "COMM-12",
+    "category": "Plywood",
+    "price": 700,
+    "uom": "sheet",
+    "description": "Budget commercial plywood for furniture carcasses."
+  },
+  {
+    "id": 3,
+    "name": "Pre-laminated Board 8mm",
+    "sku": "PLB-8",
+    "category": "Laminate",
+    "price": 950,
+    "uom": "sheet",
+    "description": "Decorative pre-laminated board with woodgrain finish."
+  },
+  {
+    "id": 4,
+    "name": "Fevicol Adhesive 2kg",
+    "sku": "FEV-2",
+    "category": "Adhesive",
+    "price": 180,
+    "uom": "bottle",
+    "description": "Strong wood adhesive."
+  }
+]
