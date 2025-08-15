@@ -1,0 +1,38 @@
+{
+  "name": "lahoti-plywood-center",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:ssr": "ng build --configuration production && ng run lahoti-plywood-center:server:production",
+    "serve:ssr": "node server.js",
+    "prerender": "ng run lahoti-plywood-center:prerender",
+    "dev:ssr": "ng run lahoti-plywood-center:serve-ssr"
+  },
+  "dependencies": {
+    "@angular/animations": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/compiler": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/forms": "^14.2.0",
+    "@angular/platform-browser": "^14.2.0",
+    "@angular/platform-browser-dynamic": "^14.2.0",
+    "@angular/platform-server": "^14.2.0",
+    "@angular/router": "^14.2.0",
+    "@nguniversal/express-engine": "^14.2.0",
+    "@nguniversal/builders": "^14.2.0",
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "rxjs": "^7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.0",
+    "@angular/cli": "^14.2.0",
+    "@angular/compiler-cli": "^14.2.0",
+    "typescript": "~4.7.0"
+  }
+}

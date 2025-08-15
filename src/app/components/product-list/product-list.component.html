@@ -1,0 +1,20 @@
+
+<div class="mb-3 row gx-2 align-items-center">
+  <div class="col-12 col-md-6 mb-2 mb-md-0">
+    <input class="form-control" placeholder="Search products by name, SKU or description" [(ngModel)]="query" />
+  </div>
+  <div class="col-6 col-md-3">
+    <select class="form-select" [(ngModel)]="category">
+      <option *ngFor="let c of categories">{{c}}</option>
+    </select>
+  </div>
+  <div class="col-6 col-md-3 text-end">
+    <span class="badge bg-secondary">{{ (products | productFilter:query:category).length }} items</span>
+  </div>
+</div>
+
+<div class="row">
+  <div *ngFor="let p of products | productFilter:query:category" class="col-12 col-sm-6 col-md-4 mb-3">
+    <app-product-card [product]="p"></app-product-card>
+  </div>
+</div>
